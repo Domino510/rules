@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,iq.com,iQIYI
 DOMAIN,intl.iqiyi.com,iQIYI
 DOMAIN,intl-rcd.iqiyi.com,iQIYI
 DOMAIN,tv-api2.iq.com,iQIYI
+DOMAIN,myvideo.net.tw,iQIYI
 DOMAIN,intl-subscription.iqiyi.com,iQIYI
 IP-CIDR,23.53.32.88/32,iQIYI
 IP-CIDR,23.211.15.99/32,iQIYI
