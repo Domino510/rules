@@ -1,4 +1,5 @@
 # > Pluto.tv
+DOMAIN,boot.pluto.tv
 DOMAIN-SUFFIX,pluto.tv
 DOMAIN-SUFFIX,clusters.pluto.tv
-DOMAIN,boot.pluto.tv
+DOMAIN-SUFFIX,newrelic.com
