@@ -1,5 +1,5 @@
 # > Hbo max
-sessions-latam.api.hbo.com
-comet-latam.api.hbo.com
-sessions.api.hbo.com
-user-comet-latam.api.hbo.com
+DOMAIN,sessions-latam.api.hbo.com
+DOMAIN,comet-latam.api.hbo.com
+DOMAIN,sessions.api.hbo.com
+DOMAIN,user-comet-latam.api.hbo.com
