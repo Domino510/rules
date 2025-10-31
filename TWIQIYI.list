@@ -1,6 +1,4 @@
-# ===================== iQIYI 专用分流（先台湾/国际，后大陆兜底）=====================
 # —— 台湾/国际 iQIYI（iq.com / inter.iqiyi.com oversea）
-DOMAIN-SUFFIX,iq.com,iQIYI
 DOMAIN,intl.iqiyi.com,iQIYI
 DOMAIN,intl-rcd.iqiyi.com,iQIYI
 DOMAIN,intl-subscription.iqiyi.com,iQIYI
