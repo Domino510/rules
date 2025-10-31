@@ -1,4 +1,9 @@
 # > TwIQIYI
+DOMAIN-SUFFIX,iq.com,iQIYI
+DOMAIN,license.iq.com,iQIYI
+DOMAIN-SUFFIX,intl.iqiyi.com,iQIYI
+DOMAIN,intl-im-hist-api.iqiyi.com,iQIYI
+DOMAIN,msg-intl.qy.net,iQIYI
 DOMAIN,intl.iqiyi.com,iQIYI
 DOMAIN,intl-rcd.iqiyi.com,iQIYI
 DOMAIN,intl-subscription.iqiyi.com,iQIYI
