@@ -1,0 +1,12 @@
+# ——————————————————————————————
+# 规则名称: Google AI Studio
+# 适用平台: Surge
+# 描述: 覆盖 Google AI Studio Web 端、API 接口、RPC 后端及沙箱
+# ——————————————————————————————
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-KEYWORD,alkalimakersuite
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,aisandbox-pa.clients6.google.com
