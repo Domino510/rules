@@ -1,7 +1,10 @@
-# Taiwan Media Rule Set
-# 包含：巴哈姆特, KKTV, Line TV, LiTV, Friday, MyVideo, Hami Video, CatchPlay 等
+# ——————————————————————————————
+# 规则名称: Taiwan Media (台湾流媒体合集)
+# 适用平台: Surge
+# 包含平台: 巴哈姆特、KKTV、Hami Video、Line TV、Yahoo TV、CatchPlay、LiTV、friDay 影音、4GTV 四季线上、MyVideo、Bilibili 港澳台及相关 CDN
+# ——————————————————————————————
 
-# > 巴哈姆特 (Bahamut)
+# > 巴哈姆特 (Bahamut / 动画疯)
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,bahamut.akamaized.net
@@ -24,7 +27,6 @@ DOMAIN-SUFFIX,hamivideo.hinet.net
 DOMAIN-SUFFIX,ott.hinet.net
 DOMAIN,hls-hichannel.cdn.hinet.net
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-DOMAIN,theater-kktv.cdn.hinet.net
 DOMAIN-KEYWORD,hamivideo.cdn.hinet.net
 
 # > Line TV
@@ -55,8 +57,9 @@ DOMAIN-SUFFIX,ols-ww100-cp.akamaized.net
 # > LiTV
 DOMAIN-SUFFIX,litv.tv
 
-# > friDay 影音
+# > friDay 影音 (含远传电信鉴权链路)
 DOMAIN-SUFFIX,friday.tw
+DOMAIN-SUFFIX,fetnet.net
 DOMAIN-KEYWORD,friday
 
 # > 4GTV (四季线上)
@@ -64,14 +67,15 @@ DOMAIN-SUFFIX,4gtv.tv
 DOMAIN-SUFFIX,ftv.com.tw
 DOMAIN-KEYWORD,4gtv
 
-# > MyVideo
+# > MyVideo (含 DRM 授权服务)
+DOMAIN,indiv.drmkeyserver.com
 DOMAIN-SUFFIX,myvideo.net.tw
 
-# > Bilibili (TW CDN)
+# > 哔哩哔哩 (Bilibili 港澳台限制及 CDN)
 DOMAIN-SUFFIX,api.bilibili.com
 DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
 
-# > WeTV (Tencent)
+# > WeTV (腾讯海外)
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
 DOMAIN-SUFFIX,meovse.com
@@ -79,18 +83,17 @@ DOMAIN-SUFFIX,wetv.acc.qq.com
 DOMAIN-SUFFIX,oth.str.mdt.qq.com
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com
 
-# > 其他/通用/CDN
+# > 台湾特定媒体 CDN 与公共资源
 DOMAIN-SUFFIX,cwb.gov.tw
 DOMAIN-SUFFIX,onead.com.tw
 DOMAIN-SUFFIX,skyking.com.tw
 DOMAIN-SUFFIX,hamifans.emome.net
 DOMAIN-SUFFIX,infinity-c12.youboranqs01.com
 DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,polyfill.io
 DOMAIN-SUFFIX,pik.goog
 DOMAIN,amnet.tw
 
-# > Cloudfront (特定用于台流的CDN)
+# > CloudFront (台流加速节点)
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
 DOMAIN,dfp6rglgjqszk.cloudfront.net
@@ -103,5 +106,5 @@ DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d5m9nd9n1srh4.cloudfront.net
 
-# > IP CIDR
-IP-CIDR,203.205.128.0/17
+# > IP-CIDR 分流
+IP-CIDR,203.205.128.0/17,no-resolve
