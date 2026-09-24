@@ -1,0 +1,12 @@
+# ——————————————————————————————
+# 规则名称: Apple Intelligence
+# 适用平台: Surge
+# 描述: 覆盖 Apple Intelligence 核心服务（私密云端计算 PCC、Siri 与聚焦搜索）
+# ——————————————————————————————
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
